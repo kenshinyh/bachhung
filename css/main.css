@@ -1,0 +1,97 @@
+*{
+}
+
+#slogan {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	opacity:0; 		
+    animation:fadeIn ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+    margin-top: 6px;
+    padding-right: 3px;
+}
+
+/*Fade in Animation */
+
+@keyframes fadeIn { 
+  from {opacity:0;}
+    to {opacity:1;} 
+}	
+
+
+#menu-home {
+	color: orange;
+}
+
+#menu-about {
+	color: orange;
+}
+
+#menu-products {
+	color: orange;
+}
+
+#menu-contact {
+	color: orange;
+}
+
+.navbar {
+	background-color: #333;
+	opacity: 1;
+}
+
+.navbar-toggle {
+	background-color: white;
+}
+
+.icon-bar {
+	color: black;
+}
+
+#news {
+	background-color: white; 
+	color: orange;
+	font-family: sans-serif;
+	text-decoration: none;
+	font-style: italic;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+#advanced {
+	background-color: white;
+	color: orange;
+	font-family: sans-serif;
+	text-decoration: none;
+	font-style: italic;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+#icon {
+	width: 25px;
+	height: 25px;
+}
+
+#navbar li {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: gray; 
+}
+
+#content1 {
+	background-color: #f8f8f8;
+	padding-left: 20px;
+}
+
+.carousel-inner {
+	border: 10px solid white;
+	border-radius: 5px;
+}
+/* .active:hover {
+	background-color: white;
+	color: black;
+} */
